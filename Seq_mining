@@ -1,7 +1,6 @@
 import requests
 import time
-import os
-import json
+
 
 def fetch_interpro_sequences(interpro_id="IPR033966", output_file="interpro_sequences_all.fasta", page_size=100):
     """
