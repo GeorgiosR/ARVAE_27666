@@ -37,8 +37,8 @@ def align_sequences(input_fasta, output_file):
 
 def main():
     # Input file is the sequences we just downloaded
-    input_fasta = "interpro_sequences.fasta"
-    output_alignment = "aligned_sequences.fasta"
+    input_fasta = "clustered_seq_rep_seq.fasta"
+    output_alignment = "aligned_clustered_sequences.fasta"
     
     if not os.path.exists(input_fasta):
         print(f"Error: Input file {input_fasta} not found")
